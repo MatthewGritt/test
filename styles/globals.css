@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.headerBtn:hover {
+  background: #103d5e;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.headerHov {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.headerHov:hover {
+  background: #36739e;
+  cursor: pointer;
+}
+
+.textHov {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* 16px */
